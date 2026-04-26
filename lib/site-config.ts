@@ -12,11 +12,11 @@ export const SITE_CONFIG = {
   tagline: "Enterprise Digital Solutions for Bangladesh",
   description:
     "Corporate.bd delivers end-to-end digital infrastructure, web development, legal compliance, managed IT, and SEO services for businesses across Bangladesh.",
-  email: "info@corporate.bd",
-  supportEmail: "support@corporate.bd",
-  salesEmail: "sales@corporate.bd",
-  phone: "+880 1700-000000",
-  whatsapp: "+880 1700-000000",
+  email: "info @ corporate.bd",
+  supportEmail: "support @ corporate.bd",
+  salesEmail: "sales @ corporate.bd",
+  phone: "+880 1515-676635",
+  whatsapp: "+880 1515-676635",
   address: {
     line1: "Level 7, Corporate Tower",
     line2: "Gulshan Avenue",
