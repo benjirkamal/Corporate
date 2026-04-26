@@ -106,7 +106,29 @@ export function SiteFooter() {
             </ul>
           </div>
         </div>
-
+        {/* Secondary service rows */}
+        <div className="mt-10 pt-10 border-t border-primary-foreground/15 grid gap-8 md:grid-cols-3">
+          {serviceCategories.slice(3).map((category) => (
+            <div key={category.label}>
+              <h3 className="font-serif font-semibold text-sm tracking-wide uppercase text-accent">
+                {category.label}
+              </h3>
+              <ul className="mt-4 grid grid-cols-2 gap-2.5">
+                {category.children!.map((child) => (
+                  <li key={child.label}>
+                    <Link
+                      href={child.href}
+                      className="text-sm text-primary-foreground/75 hover:text-primary-foreground transition"
+                    >
+                      {child.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
 
 
       {/* Bottom bar */}
