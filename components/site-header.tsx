@@ -61,7 +61,7 @@ export function SiteHeader() {
         >
           <div className="relative h-10 w-32"> {/* লোগোর সাইজ লোগো অনুযায়ী এখানে পরিবর্তন করতে পারেন */}
             <Image 
-              src="/logo.png" 
+              src="/icon.svg" 
               alt={SITE_CONFIG.name} 
               fill 
               className="object-contain object-left" 
