@@ -106,6 +106,7 @@ export function SiteFooter() {
             </ul>
           </div>
         </div>
+      </div>
 
       {/* Bottom bar */}
       <div className="border-t border-primary-foreground/15">
