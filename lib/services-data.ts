@@ -939,7 +939,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     icon: "Scale",
     heroImage: "/images/services/legal-compliance.jpg",
     intro:
-      "Compliance shouldn't slow your business down. Our legal and chartered accounting partners handle company formation, licenses, tax filings and IP protection so your team can focus on growth — confident that everything is in order.",
+      "Navigating the regulatory intricacies of the Bangladeshi market demands a partner with elite precision. Our Legal Compliance ecosystem is architected for those who prioritize structural integrity and long-term security. From high-authority RJSC filings and NBR tax advisory to comprehensive labor law frameworks, we provide the Managed Services and Business Advisory required to keep your operations audit-ready. Whether you are an MNC establishing a foothold in Gulshan or a high-growth firm scaling in Dhaka’s business hubs, we offer tailored solutions that align with the highest global standards of corporate governance.",
     services: [
       {
         slug: "company-formation",
