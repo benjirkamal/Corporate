@@ -1,0 +1,243 @@
+import Image from "next/image"
+import Link from "next/link"
+import { Check, ArrowRight } from "lucide-react"
+import { PageHero } from "@/components/page-hero"
+import { CTASection } from "@/components/cta-section"
+import { DynamicIcon } from "@/components/dynamic-icon"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+import { Button } from "@/components/ui/button"
+import type { Service, ServiceCategory } from "@/lib/services-data"
+
+type ServicePageTemplateProps = {
+  service: Service
+  category: ServiceCategory
+}
+
+export function ServicePageTemplate({ service, category }: ServicePageTemplateProps) {
+  return (
+    <>
+      <PageHero
+        eyebrow={category.title}
+        title={service.title}
+        description={service.subtitle}
+        image={service.heroImage}
+        imageAlt={`${service.title} illustration`}
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: category.title, href: `/${category.slug}` },
+          { label: service.shortTitle },
+        ]}
+        primaryCta={{ label: "Get Started", href: "/contact" }}
+        secondaryCta={{ label: "View All Services", href: `/${category.slug}` }}
+      />
+
+      {/* Overview */}
+      <section className="container mx-auto px-4 py-16 lg:py-20">
+        <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-7 order-2 lg:order-1">
+            <span className="text-xs font-medium uppercase tracking-wider text-accent">
+              Overview
+            </span>
+            <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
+              {service.overviewTitle}
+            </h2>
+            <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed text-pretty">
+              {service.overview.map((paragraph, idx) => (
+                <p key={idx}>{paragraph}</p>
+              ))}
+            </div>
+
+            <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+              {service.benefits.map((benefit) => (
+                <li key={benefit} className="flex items-start gap-2.5">
+                  <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-accent/15 text-accent">
+                    <Check className="h-3 w-3" />
+                  </span>
+                  <span className="text-sm text-foreground">{benefit}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="lg:col-span-5 order-1 lg:order-2">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-muted">
+              <Image
+                src={service.heroImage || "/placeholder.svg"}
+                alt={`${service.title} overview`}
+                fill
+                sizes="(min-width: 1024px) 40vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="bg-muted/40 border-y border-border">
+        <div className="container mx-auto px-4 py-16 lg:py-20">
+          <div className="max-w-2xl">
+            <span className="text-xs font-medium uppercase tracking-wider text-accent">
+              What&apos;s Included
+            </span>
+            <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
+              Everything you need under one roof
+            </h2>
+            <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
+              Our {service.title.toLowerCase()} package is designed to be comprehensive
+              from day one — covering setup, optimization and ongoing operations.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {service.features.map((feature) => (
+              <Card key={feature.title} className="border-border bg-background hover:shadow-md transition">
+                <CardHeader className="space-y-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/5 text-primary">
+                    <DynamicIcon name={feature.icon} className="h-5 w-5" />
+                  </div>
+                  <CardTitle className="text-base font-semibold">
+                    {feature.title}
+                  </CardTitle>
+                  <CardDescription className="leading-relaxed">
+                    {feature.description}
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Process */}
+      <section className="container mx-auto px-4 py-16 lg:py-20">
+        <div className="max-w-2xl">
+          <span className="text-xs font-medium uppercase tracking-wider text-accent">
+            Our Process
+          </span>
+          <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
+            How we deliver, step by step
+          </h2>
+        </div>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {service.process.map((step, idx) => (
+            <div key={step.step} className="relative">
+              <div className="flex items-baseline gap-3">
+                <span className="font-serif text-4xl font-bold text-accent">
+                  {step.step}
+                </span>
+                <h3 className="font-serif text-lg font-semibold">{step.title}</h3>
+              </div>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                {step.description}
+              </p>
+              {idx < service.process.length - 1 && (
+                <div
+                  aria-hidden
+                  className="hidden lg:block absolute top-6 right-0 h-px w-12 bg-border translate-x-1/2"
+                />
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section className="bg-muted/40 border-y border-border">
+        <div className="container mx-auto px-4 py-16 lg:py-20">
+          <div className="grid gap-10 lg:grid-cols-12">
+            <div className="lg:col-span-4">
+              <span className="text-xs font-medium uppercase tracking-wider text-accent">
+                FAQ
+              </span>
+              <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
+                Common questions about {service.shortTitle.toLowerCase()}
+              </h2>
+              <p className="mt-4 text-muted-foreground leading-relaxed">
+                Don&apos;t see your question here? Our team is happy to help.
+              </p>
+              <Button asChild variant="outline" className="mt-6 bg-background">
+                <Link href="/contact">
+                  Ask a Question <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+
+            <div className="lg:col-span-8">
+              <Accordion type="single" collapsible className="w-full">
+                {service.faqs.map((faq, idx) => (
+                  <AccordionItem key={idx} value={`faq-${idx}`}>
+                    <AccordionTrigger className="text-left text-base font-medium">
+                      {faq.question}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      {faq.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related services */}
+      <section className="container mx-auto px-4 py-16 lg:py-20">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <span className="text-xs font-medium uppercase tracking-wider text-accent">
+              Explore More
+            </span>
+            <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl">
+              Other {category.title.toLowerCase()} services
+            </h2>
+          </div>
+          <Button asChild variant="outline">
+            <Link href={`/${category.slug}`}>
+              View All <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {category.services
+            .filter((s) => s.slug !== service.slug)
+            .map((related) => (
+              <Link
+                key={related.slug}
+                href={`/${category.slug}/${related.slug}`}
+                className="group rounded-xl border border-border bg-card p-5 hover:border-primary hover:shadow-md transition"
+              >
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/5 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition">
+                  <DynamicIcon name={related.icon} className="h-5 w-5" />
+                </div>
+                <h3 className="mt-4 font-semibold group-hover:text-primary transition">
+                  {related.title}
+                </h3>
+                <p className="mt-2 text-sm text-muted-foreground line-clamp-2">
+                  {related.subtitle}
+                </p>
+                <div className="mt-4 flex items-center gap-1 text-sm font-medium text-primary">
+                  Learn more
+                  <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition" />
+                </div>
+              </Link>
+            ))}
+        </div>
+      </section>
+
+      <CTASection
+        title={service.ctaTitle}
+        description={service.ctaDescription}
+        primaryLabel="Get a Free Quote"
+      />
+    </>
+  )
+}
