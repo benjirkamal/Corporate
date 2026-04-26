@@ -931,11 +931,11 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   // =========================================================
   "legal-compliance": {
     slug: "legal-compliance",
-    title: "Legal Compliance",
+    title: "Best Legal Compliance & Managed Services in Bangladesh",
     shortTitle: "Legal",
     subtitle: "Stay 100% compliant with Bangladesh business law",
     description:
-      "Company formation, trade license, tax, VAT and intellectual property services for Bangladeshi businesses.",
+      "Establish your presence in the Bangladeshi market with a partner that understands global standards. Our Legal Compliance framework provides the structural integrity your business needs to thrive in Dhaka’s elite commercial zones. From BIDA approvals to comprehensive Business Advisory, we deliver the precision and transparency required for multi-national success.",
     icon: "Scale",
     heroImage: "/images/services/legal-compliance.jpg",
     intro:
