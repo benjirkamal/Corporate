@@ -117,7 +117,7 @@ export default function HomePage() {
           <div className="relative">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-primary-foreground/10 shadow-2xl">
               <Image
-                src="/images/home/team.jpg"
+                src="/images/home/dhaka-skyline.jpg"
                 alt="Corporate.bd consulting team collaborating in a Dhaka office"
                 fill
                 priority
