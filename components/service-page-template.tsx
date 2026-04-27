@@ -87,7 +87,7 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
               What&apos;s Included
             </span>
             <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
-              Everything you need under one roof..
+              Everything you need under one roof.
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
               Our {service.title.toLowerCase()} package is designed to be comprehensive
