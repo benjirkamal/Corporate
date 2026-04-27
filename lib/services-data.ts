@@ -959,7 +959,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           {
             title: "Name Clearance",
             description:
-              "Search, propose and clear your company name with RJSC.",
+              "Search, propose and clear your company name with RJSC..",
             icon: "Search",
           },
           {
