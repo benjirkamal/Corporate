@@ -943,7 +943,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "company-formation",
-        title: "Company Formation",
+        title: "Company Formation in Bangladesh",
         shortTitle: "Company Setup",
         subtitle: "Register your company with RJSC the right way",
         description:
