@@ -59,7 +59,7 @@ export function SiteHeader() {
           href="/"
           className="flex items-center gap-2"
         >
-          <div className="relative h-17 w-40"> {/* লোগোর সাইজ লোগো অনুযায়ী এখানে পরিবর্তন করতে পারেন */}
+          <div className="relative h-17 w-60"> {/* লোগোর সাইজ লোগো অনুযায়ী এখানে পরিবর্তন করতে পারেন */}
             <Image 
               src="/logo.svg" 
               alt={SITE_CONFIG.name} 
