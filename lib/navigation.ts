@@ -43,7 +43,7 @@ export const MAIN_NAV: NavItem[] = [
     ],
   },
   {
-    label: "Web Development",
+    label: "Web",
     href: "/web-development",
     description: "Custom websites, e-commerce and applications.",
     children: [
@@ -70,7 +70,7 @@ export const MAIN_NAV: NavItem[] = [
     ],
   },
   {
-    label: "Legal Compliance",
+    label: "Legal",
     href: "/legal-compliance",
     description: "Company formation, licenses, tax and IP services.",
     children: [
@@ -97,7 +97,7 @@ export const MAIN_NAV: NavItem[] = [
     ],
   },
   {
-    label: "Managed IT Services",
+    label: "IT Services",
     href: "/managed-it-services",
     description: "End-to-end IT support and automation.",
     children: [
