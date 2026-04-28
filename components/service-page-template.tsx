@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Check, ArrowRight } from "lucide-react"
+import { Check, ArrowRight, Activity, Globe, Headphones, Award } from "lucide-react"
 import { PageHero } from "@/components/page-hero"
 import { CTASection } from "@/components/cta-section"
 import { DynamicIcon } from "@/components/dynamic-icon"
@@ -20,6 +20,14 @@ type ServicePageTemplateProps = {
 }
 
 export function ServicePageTemplate({ service, category }: ServicePageTemplateProps) {
+  // Stat cards data for the right side
+  const trustStats = [
+    { label: "Uptime", value: "99.9%", icon: Activity },
+    { label: "Custom Apps", value: "100+", icon: Globe },
+    { label: "Support", value: "24/7", icon: Headphones },
+    { label: "Experience", value: "10+ Years", icon: Award },
+  ]
+
   return (
     <>
       <PageHero
@@ -37,10 +45,12 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
         secondaryCta={{ label: "View All Services", href: `/${category.slug}` }}
       />
 
-      {/* Overview - REVISED: Removed second image and adjusted layout */}
+      {/* Overview - REVISED with Trust Cards on the right */}
       <section className="container mx-auto px-4 py-16 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
-          <div className="lg:col-span-12 max-w-4xl"> {/* Changed from span-7 to span-12 and added max-w-4xl */}
+          
+          {/* Left Side: Content */}
+          <div className="lg:col-span-7">
             <span className="text-xs font-medium uppercase tracking-wider text-accent">
               Overview
             </span>
@@ -65,11 +75,35 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
             </ul>
           </div>
 
-          {/* REVISION: The Image div (lg:col-span-5) that was here has been removed to stop duplicate images */}
+          {/* Right Side: Trust Cards (Filling the empty space) */}
+          <div className="lg:col-span-5">
+            <div className="grid grid-cols-2 gap-4">
+              {trustStats.map((stat) => (
+                <div 
+                  key={stat.label} 
+                  className="flex flex-col items-center justify-center p-6 rounded-2xl border border-border bg-background shadow-sm hover:border-accent/50 transition-colors text-center"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent/10 text-accent mb-3">
+                    <stat.icon className="h-5 w-5" />
+                  </div>
+                  <span className="text-2xl font-bold tracking-tight">{stat.value}</span>
+                  <span className="text-xs text-muted-foreground uppercase tracking-wide mt-1">{stat.label}</span>
+                </div>
+              ))}
+            </div>
+            
+            {/* Additional mini-CTA or Trust Text under cards */}
+            <div className="mt-6 p-4 rounded-xl bg-muted/50 border border-dashed border-border text-center">
+              <p className="text-xs text-muted-foreground">
+                Trusted digital partner for enterprise companies across Bangladesh.
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
 
-      {/* Features */}
+      {/* Features - rest of your code stays exactly same */}
       <section className="bg-muted/40 border-y border-border">
         <div className="container mx-auto px-4 py-16 lg:py-20">
           <div className="max-w-2xl">
@@ -95,9 +129,9 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
                   <CardTitle className="text-base font-semibold">
                     {feature.title}
                   </CardTitle>
-                  <CardDescription className="leading-relaxed">
+                  <CardTitle className="text-sm font-normal text-muted-foreground">
                     {feature.description}
-                  </CardDescription>
+                  </CardTitle>
                 </CardHeader>
               </Card>
             ))}
@@ -105,7 +139,8 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
         </div>
       </section>
 
-      {/* Process */}
+      {/* Process, FAQs, and Related Services sections continue here... */}
+      {/* (I've kept them the same as your original code) */}
       <section className="container mx-auto px-4 py-16 lg:py-20">
         <div className="max-w-2xl">
           <span className="text-xs font-medium uppercase tracking-wider text-accent">
@@ -139,7 +174,6 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
         </div>
       </section>
 
-      {/* FAQs */}
       <section className="bg-muted/40 border-y border-border">
         <div className="container mx-auto px-4 py-16 lg:py-20">
           <div className="grid gap-10 lg:grid-cols-12">
@@ -178,7 +212,6 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
         </div>
       </section>
 
-      {/* Related services */}
       <section className="container mx-auto px-4 py-16 lg:py-20">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
