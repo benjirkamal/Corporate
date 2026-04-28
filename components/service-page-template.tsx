@@ -37,10 +37,10 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
         secondaryCta={{ label: "View All Services", href: `/${category.slug}` }}
       />
 
-      {/* Overview */}
+      {/* Overview - REVISED: Removed second image and adjusted layout */}
       <section className="container mx-auto px-4 py-16 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
-          <div className="lg:col-span-7 order-2 lg:order-1">
+          <div className="lg:col-span-12 max-w-4xl"> {/* Changed from span-7 to span-12 and added max-w-4xl */}
             <span className="text-xs font-medium uppercase tracking-wider text-accent">
               Overview
             </span>
@@ -65,17 +65,7 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
             </ul>
           </div>
 
-          <div className="lg:col-span-5 order-1 lg:order-2">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-muted">
-              <Image
-                src={service.heroImage || "/placeholder.svg"}
-                alt={`${service.title} overview`}
-                fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
-              />
-            </div>
-          </div>
+          {/* REVISION: The Image div (lg:col-span-5) that was here has been removed to stop duplicate images */}
         </div>
       </section>
 
