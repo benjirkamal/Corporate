@@ -1789,6 +1789,11 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
             answer:
               "Workshops start at BDT 75,000. Multi-month strategy engagements are quoted based on scope after a free consultation.",
           },
+                    {
+            question: "How much does a strategy engagement cost?",
+            answer:
+              "Workshops start at BDT 75,000. Multi-month strategy engagements are quoted based on scope after a free consultation.",
+          },
         ],
         ctaTitle: "Get senior IT advice",
         ctaDescription:
