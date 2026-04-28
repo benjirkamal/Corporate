@@ -69,7 +69,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "domain-services",
-        title: "Domain Services",
+        title: "Official .bd Domain Registration, Corporate BTCL Services for Global Brands",
         shortTitle: "Domains",
         subtitle: "Register, transfer and manage your business domains",
         description:
