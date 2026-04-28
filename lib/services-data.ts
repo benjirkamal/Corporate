@@ -75,7 +75,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         description:
           "Register .bd, .com.bd, .com and global domains with DNS management, privacy protection and 24/7 support.",
         icon: "Globe",
-        heroImage: "/images/services/domain-services.jpg",
+        heroImage: "/images/services/bd-domain-services.jpg",
         overviewTitle: "Own the digital address of your brand",
         overview: [
           "Your domain is the front door of your business online. We help Bangladeshi companies secure the right domain names — from country-specific .bd and .com.bd extensions to global TLDs like .com, .io, .org and the new generic gTLDs.",
