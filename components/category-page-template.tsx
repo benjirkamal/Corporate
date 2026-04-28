@@ -27,10 +27,10 @@ export function CategoryPageTemplate({ category }: CategoryPageTemplateProps) {
         primaryCta={{ label: "Talk to an Expert", href: "/contact" }}
       />
 
-      {/* Intro */}
+      {/* Intro - REVISED: Removed duplicate image div */}
       <section className="container mx-auto px-4 py-16 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-12 max-w-3xl"> {/* Spanned to 12 and added max-width for readability */}
             <span className="text-xs font-medium uppercase tracking-wider text-accent">
               About this practice
             </span>
@@ -54,18 +54,7 @@ export function CategoryPageTemplate({ category }: CategoryPageTemplateProps) {
               ))}
             </div>
           </div>
-
-          <div className="lg:col-span-5">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border">
-              <Image
-                src={category.heroImage || "/placeholder.svg"}
-                alt={`${category.title} team at work`}
-                fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
-              />
-            </div>
-          </div>
+          {/* Duplicate image div removed from here */}
         </div>
       </section>
 
