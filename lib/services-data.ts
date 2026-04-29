@@ -330,11 +330,11 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         ],
 
     whyChooseUsTitle: "Why Choose Corporate.bd for Cloud Hosting?", // Why chose us serction.
-        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUsDescription: "Empower your business with a resilient cloud infrastructure built for speed, security, and effortless growth. We manage the complexity so you can focus on your success.",
         whyChooseUs: [
-    { title: "Unmatched Performance & Reliability", description: "Powered by state-of-the-art NVMe SSD storage and robust processing power, our infrastructure ensures your website loads instantly with an industry-leading 99.9% uptime guarantee, even during high traffic spikes." },
-    { title: "Enterprise-Grade Security & Data Protection", description: "We safeguard your critical business assets with advanced firewall configurations, real-time DDoS protection, and automated daily backups to ensure your data is always secure and recoverable." },
-    { title: "Seamless Scalability with Managed Support", description: "Start with what you need and scale your CPU, RAM, and storage instantly as your business grows—all backed by 24/7 proactive monitoring and expert technical support from our local certified engineers." }
+    { title: "Unmatched Performance", description: "Experience lightning-fast load times powered by NVMe SSD storage and a guaranteed 99.9% uptime for your mission-critical sites."},
+    { title: "Enterprise-Grade Security", description: "Protect your assets with advanced firewalls, real-time DDoS mitigation, and automated daily backups for total peace of mind." },
+    { title: "Scale with Expert Support", description: "Grow your CPU and RAM instantly as your traffic increases, backed by 24/7 proactive monitoring from our local certified engineers." }
   ],
         featuresHeading: "Everything you need to power your digital infrastructure", // ফিচার টাইটেল
               features: [
