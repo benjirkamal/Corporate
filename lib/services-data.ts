@@ -197,7 +197,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
             icon: "AtSign",
           },
           {
-            title: "Google Workspace & M365",
+            title: "Google Workspace & Outlook 365",
             description:
               "Authorized partner for Google Workspace and Microsoft 365 with discounted local billing.",
             icon: "Layers",
