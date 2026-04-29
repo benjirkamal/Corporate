@@ -430,9 +430,9 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "ssl-security",
-        title: "SSL & Security",
+        title: "Secure Your Website with Premium SSL Certificates in Bangladesh",
         shortTitle: "Security",
-        subtitle: "Encrypt traffic and harden your applications",
+        subtitle: "Protect user data, boost search engine rankings, and build instant trust with industry-leading SSL encryption solutions.",
         description:
           "SSL certificates, web application firewalls, DDoS protection and security audits.",
         icon: "ShieldCheck",
@@ -443,14 +443,14 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "From DV certificates for blogs to OV/EV certificates for enterprises and wildcard or multi-domain SANs, we install, renew and monitor everything for you.",
         ],
 
-    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
-        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+    whyChooseUsTitle: "Expertise in Web Security and Encryption", // Why chose us serction.
+        whyChooseUsDescription: "We don't just sell certificates; we provide end-to-end security implementation for your digital assets.",
         whyChooseUs: [
-    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
-    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
-    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+    { title: "Automated Renewal", description: "Never worry about expiry with our proactive renewal alert system." },
+    { title: "Expert Installation", description: "Free technical support for CSR generation and SSL installation on any server." },
+    { title: "Local Support", description: "Dedicated security experts available in Bangladesh for instant troubleshooting." }
   ],
-        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
+        featuresHeading: "Why Your Business Needs an SSL Certificate?", // ফিচার টাইটেল
 
         features: [
           {
@@ -679,6 +679,17 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "We build online stores on the platform that fits your business: Shopify for fast launches, WooCommerce for flexibility, Medusa or Saleor for headless control, or fully custom Next.js commerce for unique workflows.",
           "Every store ships with bKash, Nagad, SSLCommerz, Stripe and card gateway integration, plus connections to Pathao, RedX, Steadfast and Sundarban for last-mile delivery.",
         ],
+
+    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
+        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUs: [
+    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
+    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
+    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+  ],
+        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
+
+
         features: [
           {
             title: "Shopify & WooCommerce",
