@@ -100,7 +100,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Beyond registration, we offer DNS management, domain transfer, bulk renewal reminders, WHOIS privacy and dispute resolution support so your most valuable digital asset is always protected.",
         ],
     whyChooseUsTitle: "Why Choose Us for Domain Management?",
-        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUsDescription: "Your digital presence is the foundation of your business reputation. At Corporate.bd, we go beyond simple registration to provide a comprehensive domain ecosystem. We combine industry-leading security protocols with a streamlined management interface, ensuring your brand stays protected, accessible, and perfectly aligned with your growth strategy—both at home in Bangladesh and across the global market.",
         whyChooseUs: [
     { title: "Enterprise-Grade Security", description: "We prioritize your brand safety with advanced domain locking and privacy protection services." },
     { title: "Easy Management Dashboard", description: "Simplify your life with our intuitive interface, allowing you to manage multiple domains, DNS settings, and renewals in one place." },
