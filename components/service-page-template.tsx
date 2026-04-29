@@ -142,36 +142,65 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
 
 
 {/* Why Choose Us - Dynamic Section */}
+{/* Why Choose Us - Revised Section with Background Offset */}
 {service.whyChooseUs && (
-  <section className="container mx-auto px-4 py-16 lg:py-20 border-t border-border">
-    <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-      <div>
-        <span className="text-xs font-medium uppercase tracking-wider text-accent">
-          Why Partner With Us
-        </span>
-        <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
-          {service.whyChooseUsTitle || "Technical expertise you can trust"}
-        </h2>
-        <p className="mt-6 text-muted-foreground leading-relaxed">
-          {service.whyChooseUsDescription}
-        </p>
-        
-        <div className="mt-8 space-y-6">
-          {service.whyChooseUs.map((item, idx) => (
-            <div key={idx} className="flex gap-4">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <Check className="h-5 w-5" />
+  <section className="w-full bg-slate-50/80 py-16 lg:py-24 border-y border-border/60">
+    <div className="container mx-auto px-4">
+      <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div>
+          <span className="text-xs font-semibold uppercase tracking-widest text-primary/80">
+            Why Partner With Us
+          </span>
+          <h2 className="mt-3 font-serif text-3xl font-bold tracking-tight md:text-4xl text-balance text-foreground">
+            {service.whyChooseUsTitle || "Technical expertise you can trust"}
+          </h2>
+          <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
+            {service.whyChooseUsDescription}
+          </p>
+          
+          <div className="mt-10 space-y-8">
+            {service.whyChooseUs.map((item, idx) => (
+              <div key={idx} className="flex gap-5 group">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white shadow-sm border border-border group-hover:border-primary/30 group-hover:bg-primary/5 transition-all duration-300">
+                  <Check className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-foreground text-lg">{item.title}</h4>
+                  <p className="text-muted-foreground mt-1.5 leading-normal">
+                    {item.description}
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4 className="font-semibold text-foreground">{item.title}</h4>
-                <p className="text-sm text-muted-foreground mt-1">
-                  {item.description}
-                </p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
+        </div>
+
+        {/* Right Side Visual - Optional Image/Card */}
+        <div className="relative hidden lg:block">
+          <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary/10 to-transparent blur-2xl" />
+          <div className="relative rounded-2xl border border-border bg-white p-8 shadow-xl">
+             <div className="space-y-6">
+                <div className="flex items-center justify-between border-b border-border pb-4">
+                   <span className="font-medium">Service Excellence</span>
+                   <span className="text-primary font-bold">Verified</span>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                   <div className="p-4 rounded-lg bg-slate-50 border border-border">
+                      <div className="text-2xl font-bold text-primary">99.9%</div>
+                      <div className="text-xs text-muted-foreground uppercase">Uptime</div>
+                   </div>
+                   <div className="p-4 rounded-lg bg-slate-50 border border-border">
+                      <div className="text-2xl font-bold text-primary">24/7</div>
+                      <div className="text-xs text-muted-foreground uppercase">Support</div>
+                   </div>
+                </div>
+             </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+)}
 
       {/* Stats Section */}
       <div className="grid grid-cols-2 gap-4">
