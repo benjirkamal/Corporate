@@ -212,6 +212,16 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Using a generic email address like 'yourcompany@gmail.com' can affect how clients perceive your brand. A custom corporate email (e.g., 'info@yourcompany.com') builds instant trust, ensures professional communication, and creates a lasting impression on your clients and partners.",
           "Every plan includes spam protection, calendar, contacts, mobile sync and admin controls. Migrations from Gmail, Yahoo or any IMAP provider are handled by our team.",
         ],
+
+
+    whyChooseUsTitle: "Why Choose Us for Domain Management?",
+        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUs: [
+    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
+    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
+    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+  ],
+
         featuresHeading: "Professional Business Email Solutions & Features", // ফিচার টাইটেল
         features: [
           {
