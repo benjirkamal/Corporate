@@ -52,6 +52,23 @@ export type ServiceCategory = {
   services: Service[]
 }
 
+export type WhyChooseUsItem = {
+  title: string;
+  description: string;
+};
+
+export type Service = {
+  slug: string;
+  title: string;
+  whyChooseUsTitle?: string;       // সেকশনের মেইন টাইটেল
+  whyChooseUsDescription?: string; // সেকশনের ছোট বর্ণনা
+  whyChooseUs?: WhyChooseUsItem[]; // ৩-৪টি কারণের লিস্ট
+};
+
+
+
+
+
 export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
   // =========================================================
   // 1. DIGITAL INFRASTRUCTURE
@@ -82,6 +99,13 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Your domain is the front door of your business online. We help Bangladeshi companies secure the right domain names — from country-specific .bd and .com.bd extensions to global TLDs like .com, .io, .org and the new generic gTLDs.",
           "Beyond registration, we offer DNS management, domain transfer, bulk renewal reminders, WHOIS privacy and dispute resolution support so your most valuable digital asset is always protected.",
         ],
+    whyChooseUsTitle: "Why Choose Us for Domain Management?",
+        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUs: [
+    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
+    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
+    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+  ],
         featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
         features: [
           {

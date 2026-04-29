@@ -141,83 +141,68 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
 
 
 
-{/* Features সেকশন শেষ হওয়ার পর এবং Process সেকশন শুরু হওয়ার আগে এটি বসান */}
-
-{/* Why Choose Us */}
-<section className="container mx-auto px-4 py-16 lg:py-20">
-  <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-    <div>
-      <span className="text-xs font-medium uppercase tracking-wider text-accent">
-        Why Partner With Us
-      </span>
-      <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
-        Technical expertise you can trust
-      </h2>
-      <p className="mt-6 text-muted-foreground leading-relaxed">
-        আমরা শুধুমাত্র সার্ভিস প্রদান করি না, বরং আপনার ব্যবসার ডিজিটাল ইনফ্রাস্ট্রাকচার নিশ্চিত করতে কাজ করি। আমাদের ইঞ্জিনিয়ারিং টিম প্রতিটি প্রজেক্টে পারফরম্যান্স এবং সিকিউরিটিকে সর্বোচ্চ গুরুত্ব দেয়।
-      </p>
-      
-      <div className="mt-8 space-y-6">
-        <div className="flex gap-4">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-            <Check className="h-5 w-5" />
-          </div>
-          <div>
-            <h4 className="font-semibold text-foreground">Local Expertise & Billing</h4>
-            <p className="text-sm text-muted-foreground mt-1">
-              বাংলাদেশি মার্কেট এবং লোকাল কমপ্লায়েন্স বুঝে আমরা সার্ভিস প্রদান করি।
-            </p>
-          </div>
+{/* Why Choose Us - Dynamic Section */}
+{service.whyChooseUs && (
+  <section className="container mx-auto px-4 py-16 lg:py-20 border-t border-border">
+    <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+      <div>
+        <span className="text-xs font-medium uppercase tracking-wider text-accent">
+          Why Partner With Us
+        </span>
+        <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
+          {service.whyChooseUsTitle || "Technical expertise you can trust"}
+        </h2>
+        <p className="mt-6 text-muted-foreground leading-relaxed">
+          {service.whyChooseUsDescription}
+        </p>
+        
+        <div className="mt-8 space-y-6">
+          {service.whyChooseUs.map((item, idx) => (
+            <div key={idx} className="flex gap-4">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                <Check className="h-5 w-5" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground">{item.title}</h4>
+                <p className="text-sm text-muted-foreground mt-1">
+                  {item.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
+      </div>
 
-        <div className="flex gap-4">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-            <Check className="h-5 w-5" />
-          </div>
-          <div>
-            <h4 className="font-semibold text-foreground">24/7 Technical Support</h4>
-            <p className="text-sm text-muted-foreground mt-1">
-              আমাদের অভিজ্ঞ সিস্টেম সাপোর্ট ইঞ্জিনিয়াররা যেকোনো সমস্যায় দ্রুত সমাধান নিশ্চিত করে।
-            </p>
-          </div>
-        </div>
-
-        <div className="flex gap-4">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-            <Check className="h-5 w-5" />
-          </div>
-          <div>
-            <h4 className="font-semibold text-foreground">High-Performance Stack</h4>
-            <p className="text-sm text-muted-foreground mt-1">
-              আমরা React এবং Next.js এর মতো আধুনিক টেকনোলজি ব্যবহার করি যা দ্রুত লোডিং স্পিড নিশ্চিত করে।
-            </p>
-          </div>
-        </div>
+      {/* Stats Section */}
+      <div className="grid grid-cols-2 gap-4">
+        {service.stats ? (
+          service.stats.map((stat, idx) => (
+            <div key={idx} className={`rounded-2xl p-8 text-center border ${idx === 2 ? 'col-span-2 bg-primary text-primary-foreground' : 'bg-muted border-border'}`}>
+              <div className="text-3xl font-bold">{stat.value}</div>
+              <div className={`text-sm mt-1 ${idx === 2 ? 'opacity-90' : 'text-muted-foreground'}`}>{stat.label}</div>
+            </div>
+          ))
+        ) : (
+          // ডিফল্ট স্ট্যাটাস যদি ডাটা না থাকে
+          <>
+            <div className="rounded-2xl bg-muted p-8 text-center border border-border">
+              <div className="text-3xl font-bold text-primary">99.9%</div>
+              <div className="text-sm text-muted-foreground mt-1">Uptime SLA</div>
+            </div>
+            <div className="rounded-2xl bg-accent/5 p-8 text-center border border-accent/10">
+              <div className="text-3xl font-bold text-accent">5+</div>
+              <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
+            </div>
+            <div className="col-span-2 rounded-2xl bg-primary p-8 text-center text-primary-foreground">
+              <div className="text-3xl font-bold">500+</div>
+              <div className="text-sm opacity-90 mt-1">Clients Served Across BD</div>
+            </div>
+          </>
+        )}
       </div>
     </div>
-
-    <div className="grid grid-cols-2 gap-4">
-      <div className="space-y-4">
-        <div className="rounded-2xl bg-muted p-8 text-center border border-border">
-          <div className="text-3xl font-bold text-primary">99.9%</div>
-          <div className="text-sm text-muted-foreground mt-1">Uptime SLA</div>
-        </div>
-        <div className="rounded-2xl bg-accent/5 p-8 text-center border border-accent/10">
-          <div className="text-3xl font-bold text-accent">5+</div>
-          <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
-        </div>
-      </div>
-      <div className="flex items-center">
-        <div className="rounded-2xl bg-primary p-8 text-center text-primary-foreground w-full">
-          <div className="text-3xl font-bold">500+</div>
-          <div className="text-sm opacity-90 mt-1">Clients Served</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+  </section>
+)}
 
 
 
