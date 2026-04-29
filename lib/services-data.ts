@@ -105,7 +105,6 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     { title: "Enterprise-Grade Security", description: "We prioritize your brand safety with advanced domain locking and privacy protection services." },
     { title: "Easy Management Dashboard", description: "Simplify your life with our intuitive interface, allowing you to manage multiple domains, DNS settings, and renewals in one place." },
     { title: "Proactive Renewal Reminders", description: "Never lose your domain. We provide automated alerts and managed renewal services so your online presence remains uninterrupted." }
-    { title: "Local & International Expertise", description: "Whether you need a local .bd domain or global TLDs (.com, .net, .org), we offer seamless registration and support." }
   ],
         featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
         features: [
