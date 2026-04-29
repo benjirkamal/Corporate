@@ -206,7 +206,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         description:
           "Business email hosting with you@yourcompany.com, calendar, contacts and enterprise security.",
         icon: "Mail",
-        heroImage: "/images/services/corporate-email.jpg",
+        heroImage: "/images/services/corporate-email-services-in-bangladesh.webp",
         overviewTitle: "Why Your Business Needs a Professional Email",
         overview: [
           "Using a generic email address like 'yourcompany@gmail.com' can affect how clients perceive your brand. A custom corporate email (e.g., 'info@yourcompany.com') builds instant trust, ensures professional communication, and creates a lasting impression on your clients and partners.",
