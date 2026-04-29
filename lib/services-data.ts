@@ -316,27 +316,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "cloud-hosting",
-        title: "Cloud Hosting",
+        title: "High-Performance Enterprise Cloud Hosting",
         shortTitle: "Hosting",
-        subtitle: "Fast, scalable hosting for websites and applications",
+        subtitle: "Scale your mission-critical applications with secure, lightning-fast infrastructure built for the modern enterprise.",
         description:
           "Managed cloud hosting on AWS, DigitalOcean, Vercel and our local Bangladesh data centers.",
         icon: "Cloud",
         heroImage: "/images/services/cloud-hosting.jpg",
-        overviewTitle: "Hosting built for performance",
+        overviewTitle: "Cloud Hosting Built for Enterprise Performance",
         overview: [
-          "Slow websites lose customers. We host your sites and applications on a curated mix of global cloud providers and locally peered data centers in Bangladesh so your users get sub-second load times every time.",
-          "Whether you need a simple shared plan, a scalable VPS, a Kubernetes cluster or a fully managed serverless deployment, our engineers configure, harden and monitor it for you.",
+          "Slow-loading websites lead to lost opportunities. At Corporate.bd, we host your mission-critical sites and applications on a curated blend of premium global cloud providers and locally peered data centers in Bangladesh.",
+          "This hybrid infrastructure ensures sub-second load times and a seamless user experience every time.",
         ],
 
-    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
+    whyChooseUsTitle: "Why Choose Corporate.bd for Cloud Hosting?", // Why chose us serction.
         whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
         whyChooseUs: [
-    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
-    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
-    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+    { title: "Unmatched Performance & Reliability", description: "Powered by state-of-the-art NVMe SSD storage and robust processing power, our infrastructure ensures your website loads instantly with an industry-leading 99.9% uptime guarantee, even during high traffic spikes." },
+    { title: "Enterprise-Grade Security & Data Protection", description: "We safeguard your critical business assets with advanced firewall configurations, real-time DDoS protection, and automated daily backups to ensure your data is always secure and recoverable." },
+    { title: "Seamless Scalability with Managed Support", description: "Start with what you need and scale your CPU, RAM, and storage instantly as your business grows—all backed by 24/7 proactive monitoring and expert technical support from our local certified engineers." }
   ],
-        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
+        featuresHeading: "Everything you need to power your digital infrastructure", // ফিচার টাইটেল
               features: [
           {
             title: "Shared & Reseller Hosting",
@@ -442,6 +442,16 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "A green padlock is no longer optional. Modern browsers warn visitors away from sites without HTTPS, and search engines penalize them in rankings. We provide SSL certificates from globally trusted CAs and a full security stack to protect your business.",
           "From DV certificates for blogs to OV/EV certificates for enterprises and wildcard or multi-domain SANs, we install, renew and monitor everything for you.",
         ],
+
+    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
+        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUs: [
+    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
+    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
+    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+  ],
+        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
+
         features: [
           {
             title: "DV, OV & EV Certificates",
