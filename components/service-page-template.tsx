@@ -110,9 +110,9 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
             <span className="text-xs font-medium uppercase tracking-wider text-accent">
               What&apos;s Included
             </span>
-            <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
-              Everything you need under one roof..
-            </h2>
+          <h2 className="mt-3 font-serif text-2xl font-bold tracking-tight md:text-3xl text-balance">
+              {service.featuresHeading}
+          </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
               Our {service.title.toLowerCase()} package is designed to be comprehensive
               from day one — covering setup, optimization and ongoing operations.

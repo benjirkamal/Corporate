@@ -31,6 +31,7 @@ export type Service = {
   heroImage: string
   overviewTitle: string
   overview: string[]
+  featuresHeading: string
   features: ServiceFeature[]
   benefits: string[]
   process: ProcessStep[]
@@ -81,6 +82,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Your domain is the front door of your business online. We help Bangladeshi companies secure the right domain names — from country-specific .bd and .com.bd extensions to global TLDs like .com, .io, .org and the new generic gTLDs.",
           "Beyond registration, we offer DNS management, domain transfer, bulk renewal reminders, WHOIS privacy and dispute resolution support so your most valuable digital asset is always protected.",
         ],
+        featuresHeading: "Everything you need to manage your domain portfolio",
         features: [
           {
             title: ".bd & .com.bd Registration",
