@@ -437,7 +437,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "SSL certificates, web application firewalls, DDoS protection and security audits.",
         icon: "ShieldCheck",
         heroImage: "/images/services/ssl-security.jpg",
-        overviewTitle: "Security that customers can see",
+        overviewTitle: "Secure Your Business with Trusted SSL Certificates in BD",
         overview: [
           "A green padlock is no longer optional. Modern browsers warn visitors away from sites without HTTPS, and search engines penalize them in rankings. We provide SSL certificates from globally trusted CAs and a full security stack to protect your business.",
           "From DV certificates for blogs to OV/EV certificates for enterprises and wildcard or multi-domain SANs, we install, renew and monitor everything for you.",
