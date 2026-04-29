@@ -328,6 +328,15 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Slow websites lose customers. We host your sites and applications on a curated mix of global cloud providers and locally peered data centers in Bangladesh so your users get sub-second load times every time.",
           "Whether you need a simple shared plan, a scalable VPS, a Kubernetes cluster or a fully managed serverless deployment, our engineers configure, harden and monitor it for you.",
         ],
+
+    whyChooseUsTitle: "Why Choose Us for Domain Management?",
+        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUs: [
+    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
+    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
+    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+  ],
+        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
         features: [
           {
             title: "Shared & Reseller Hosting",
