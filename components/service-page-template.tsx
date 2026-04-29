@@ -142,7 +142,7 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
 
 
 {/* Why Choose Us - Dynamic Section */}
-{/* Why Choose Us - Revised Section with Background Offset */}
+{/* Why Choose Us - Revised & Syntax Corrected */}
 {service.whyChooseUs && (
   <section className="w-full bg-slate-50/80 py-16 lg:py-24 border-y border-border/60">
     <div className="container mx-auto px-4">
@@ -175,7 +175,7 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
           </div>
         </div>
 
-        {/* Right Side Visual - Optional Image/Card */}
+        {/* Right Side Visual */}
         <div className="relative hidden lg:block">
           <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary/10 to-transparent blur-2xl" />
           <div className="relative rounded-2xl border border-border bg-white p-8 shadow-xl">
@@ -185,11 +185,11 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
                    <span className="text-primary font-bold">Verified</span>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                   <div className="p-4 rounded-lg bg-slate-50 border border-border">
+                   <div className="p-4 rounded-lg bg-slate-50 border border-border text-center">
                       <div className="text-2xl font-bold text-primary">99.9%</div>
                       <div className="text-xs text-muted-foreground uppercase">Uptime</div>
                    </div>
-                   <div className="p-4 rounded-lg bg-slate-50 border border-border">
+                   <div className="p-4 rounded-lg bg-slate-50 border border-border text-center">
                       <div className="text-2xl font-bold text-primary">24/7</div>
                       <div className="text-xs text-muted-foreground uppercase">Support</div>
                    </div>
