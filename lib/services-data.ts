@@ -202,7 +202,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         slug: "corporate-email",
         title: "Professional Corporate Email Solutions in Bangladesh",
         shortTitle: "Email",
-        subtitle: "Professional email with your own domain",
+        subtitle: "Secure, scalable, and professional business email infrastructure tailored to keep your enterprise communication reliable and productive.",
         description:
           "Business email hosting with you@yourcompany.com, calendar, contacts and enterprise security.",
         icon: "Mail",
@@ -214,12 +214,12 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         ],
 
 
-    whyChooseUsTitle: "Why Choose Us for Domain Management?",
-        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+    whyChooseUsTitle: "Why Choose Corporate.bd for Your Business Email?",
+        whyChooseUsDescription: "We make managing your domain portfolio simple, secure, and stress-free.",
         whyChooseUs: [
-    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
-    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
-    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+    { title: "Professional Brand Identity", description: "Replace generic email addresses with a custom domain-based identity (e.g., info@yourcompany.com) to establish instant credibility and build lasting trust with your clients." },
+    { title: "Enterprise-Grade Security", description: "Safeguard your sensitive business data with our proactive multi-layer defense, featuring advanced spam filtering, anti-phishing protocols, and robust end-to-end encryption." },
+    { title: "Scalable Infrastructure", description: "Designed to grow with you, our flexible platform allows for effortless scaling of user accounts and storage capacity, backed by a 99.9% uptime guarantee to ensure your team stays connected 24/7." }
   ],
 
         featuresHeading: "Professional Business Email Solutions & Features", // ফিচার টাইটেল
@@ -329,7 +329,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Whether you need a simple shared plan, a scalable VPS, a Kubernetes cluster or a fully managed serverless deployment, our engineers configure, harden and monitor it for you.",
         ],
 
-    whyChooseUsTitle: "Why Choose Us for Domain Management?",
+    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
         whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
         whyChooseUs: [
     { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
@@ -337,7 +337,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
   ],
         featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
-        features: [
+              features: [
           {
             title: "Shared & Reseller Hosting",
             description:
