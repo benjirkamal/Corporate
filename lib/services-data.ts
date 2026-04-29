@@ -102,9 +102,10 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     whyChooseUsTitle: "Why Choose Us for Domain Management?",
         whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
         whyChooseUs: [
-    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
-    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
-    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+    { title: "Enterprise-Grade Security", description: "We prioritize your brand safety with advanced domain locking and privacy protection services." },
+    { title: "Easy Management Dashboard", description: "Simplify your life with our intuitive interface, allowing you to manage multiple domains, DNS settings, and renewals in one place." },
+    { title: "Proactive Renewal Reminders", description: "Never lose your domain. We provide automated alerts and managed renewal services so your online presence remains uninterrupted." }
+    { title: "Local & International Expertise", description: "Whether you need a local .bd domain or global TLDs (.com, .net, .org), we offer seamless registration and support." }
   ],
         featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
         features: [
