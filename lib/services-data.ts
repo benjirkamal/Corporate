@@ -82,7 +82,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Your domain is the front door of your business online. We help Bangladeshi companies secure the right domain names — from country-specific .bd and .com.bd extensions to global TLDs like .com, .io, .org and the new generic gTLDs.",
           "Beyond registration, we offer DNS management, domain transfer, bulk renewal reminders, WHOIS privacy and dispute resolution support so your most valuable digital asset is always protected.",
         ],
-        featuresHeading: "Everything you need to manage your domain portfolio",
+        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
         features: [
           {
             title: ".bd & .com.bd Registration",
@@ -188,6 +188,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "An address like you@yourcompany.com instantly signals that your business is professional and credible. We provide enterprise-grade corporate email built on Google Workspace, Microsoft 365 and our own private cloud.",
           "Every plan includes spam protection, calendar, contacts, mobile sync and admin controls. Migrations from Gmail, Yahoo or any IMAP provider are handled by our team.",
         ],
+        featuresHeading: "Professional Business Email Solutions & Features", // ফিচার টাইটেল
         features: [
           {
             title: "Custom Domain Email",
