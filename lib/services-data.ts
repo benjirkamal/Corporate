@@ -176,16 +176,16 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "corporate-email",
-        title: "Corporate Email",
+        title: "Professional Corporate Email Solutions in Bangladesh",
         shortTitle: "Email",
         subtitle: "Professional email with your own domain",
         description:
           "Business email hosting with you@yourcompany.com, calendar, contacts and enterprise security.",
         icon: "Mail",
         heroImage: "/images/services/corporate-email.jpg",
-        overviewTitle: "Email that earns trust",
+        overviewTitle: "Why Your Business Needs a Professional Email",
         overview: [
-          "An address like you@yourcompany.com instantly signals that your business is professional and credible. We provide enterprise-grade corporate email built on Google Workspace, Microsoft 365 and our own private cloud.",
+          "Using a generic email address like 'yourcompany@gmail.com' can affect how clients perceive your brand. A custom corporate email (e.g., 'info@yourcompany.com') builds instant trust, ensures professional communication, and creates a lasting impression on your clients and partners.",
           "Every plan includes spam protection, calendar, contacts, mobile sync and admin controls. Migrations from Gmail, Yahoo or any IMAP provider are handled by our team.",
         ],
         featuresHeading: "Professional Business Email Solutions & Features", // ফিচার টাইটেল
