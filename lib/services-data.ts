@@ -899,7 +899,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         slug: "cms-management",
         title: "Professional CMS Management: You Create, We Manage the Rest",
         shortTitle: "CMS",
-        subtitle: "Managed CMS Solutions in Bangladesh | WordPress, Joomla & Drupal | Corporate.bd",
+        subtitle: "Managed CMS Solutions in Bangladesh, WordPress, Joomla & Drupal",
         description:
           "Stop worrying about technical updates or security patches. Get a high-performance Content Management System that gives you the power to update your site in seconds.",
         icon: "FileEdit",
@@ -1030,18 +1030,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "company-formation",
-        title: "Company Formation in Bangladesh",
+        title: "Seamless Company Formation & Registration in Bangladesh",
         shortTitle: "Company Setup",
         subtitle: "Register your company with RJSC the right way",
         description:
-          "End-to-end company registration with RJSC — Private Limited, Public Limited, One Person Company and Branch Office.",
+          "Start your business the right way. We provide end-to-end company formation services in Bangladesh, including RJSC registration, trade licenses, and tax compliance.",
         icon: "Building",
         heroImage: "/images/services/company-formation.jpg",
-        overviewTitle: "From idea to incorporated — in days, not months",
+        overviewTitle: "Launch Your Business with Confidence and Legal Precision",
         overview: [
-          "Whether you're starting a Private Limited Company, Public Limited Company, One Person Company (OPC), Partnership, Branch Office or Liaison Office, we handle the entire RJSC registration process — name clearance, MOA, AOA, share allotment, TIN, BIN and bank account opening.",
+          "From initial registration to full regulatory compliance, we simplify the complex process of setting up your company in Bangladesh so you can focus on growth.",
           "Foreign investors get additional support with BIDA registration, work permit and FDI compliance.",
         ],
+        
+    whyChooseUsTitle: "Why Corporate.bd for Legal Compliance?", // Why chose us serction.
+        whyChooseUsDescription: "Registering a company is just the beginning. Our mission is to protect your business from future legal hurdles through meticulous planning and a deep understanding of Bangladesh's Companies Act.",
+        whyChooseUs: [
+    { title: "Expert Legal Counsel", description: "Our team consists of seasoned consultants who understand the nuances of the Registrar of Joint Stock Companies (RJSC) and BIDA regulations." },
+    { title: "Post-Registration Care", description: "We don't just hand you the papers; we stay with you for annual returns, tax filings, and ongoing compliance audits." },
+    { title: "Tailored Structuring", description: "Whether it’s a Private Limited, Partnership, or Sole Proprietorship, we help you choose the legal structure that minimizes liability and maximizes profit." }
+  ],
+        featuresHeading: "Your All-in-One Business Launchpad", // ফিচার টাইটেল
         features: [
           {
             title: "Name Clearance",
