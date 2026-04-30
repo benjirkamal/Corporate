@@ -676,29 +676,28 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "ecommerce-solutions",
-        title: "E-commerce Solutions",
+        title: "Professional eCommerce Website Development in Bangladesh",
         shortTitle: "E-commerce",
-        subtitle: "Online stores built to scale and sell",
+        subtitle: "Scale your online business with high-performance eCommerce website development. Secure payments, mobile-first design, and expert support in Bangladesh.",
         description:
           "Shopify, WooCommerce and custom e-commerce platforms with local payment gateways and logistics.",
         icon: "ShoppingCart",
         heroImage: "/images/services/ecommerce-solutions.jpg",
-        overviewTitle: "Sell more online — across Bangladesh and beyond",
+        overviewTitle: "Expert eCommerce Website Development to Scale Your Online Business",
         overview: [
-          "We build online stores on the platform that fits your business: Shopify for fast launches, WooCommerce for flexibility, Medusa or Saleor for headless control, or fully custom Next.js commerce for unique workflows.",
-          "Every store ships with bKash, Nagad, SSLCommerz, Stripe and card gateway integration, plus connections to Pathao, RedX, Steadfast and Sundarban for last-mile delivery.",
+          "In today's digital marketplace, a professional online store is the backbone of business growth.",
+          "At Corporate.bd, we specialize in eCommerce website development that combines stunning aesthetics with powerful functionality. From startups to large enterprises, we create platforms that are fast, secure, and fully optimized for sales.",
         ],
 
-    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
+    whyChooseUsTitle: "Why Choose for eCommerce Website Development", // Why chose us serction.
         whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
         whyChooseUs: [
-    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
-    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
-    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+    { title: "Conversion-Focused Design", description: "We don't just build sites; we build sales engines. Our mobile-first designs ensure a seamless shopping experience across all devices, reducing cart abandonment and boosting ROI." },
+    { title: "Secure & Scalable Infrastructure", description: "Built with robust security protocols and integrated with trusted local & international payment gateways, our solutions grow effortlessly as your product catalog expands." },
+    { title: "Full Post-Launch Support", description: "Beyond development, our local experts provide 24/7 technical support, security updates, and performance optimization to keep your store running smoothly 24/7." }
   ],
-        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
-
-
+        featuresHeading: "Features That Drive Business Success", // ফিচার টাইটেল
+        
         features: [
           {
             title: "Shopify & WooCommerce",
