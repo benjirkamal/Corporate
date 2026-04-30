@@ -563,9 +563,9 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "corporate-websites",
-        title: "Corporate Websites",
+        title: "High-Performance Development of Corporate Websites",
         shortTitle: "Corporate Sites",
-        subtitle: "Modern websites that win trust and customers",
+        subtitle: "We design and develop secure, scalable, and results-driven corporate websites that establish your brand’s authority in the digital landscape.",
         description:
           "Bespoke corporate websites built on Next.js with CMS, SEO and performance optimization.",
         icon: "Building2",
