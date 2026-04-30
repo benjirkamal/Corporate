@@ -1970,7 +1970,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         heroImage: "/images/services/local-seo.jpg",
         overviewTitle: "Turn Local Searches Into Real Foot Traffic",
         overview: [
-          "When people in your area search for your services, do they find you or your competitors? Dominate Google Maps and the Local 3-Pack" with our targeted Local SEO strategies.",
+          "When people in your area search for your services, do they find you or your competitors? Dominate Google Maps and the Local 3-Pack with our targeted Local SEO strategies.",
           "We optimize your Google Business Profile, build authoritative local citations, manage reviews and create Bangla + English content that earns top rankings city by city.",
         ],
 
