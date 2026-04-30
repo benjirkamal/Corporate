@@ -1050,7 +1050,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     { title: "Post-Registration Care", description: "We don't just hand you the papers; we stay with you for annual returns, tax filings, and ongoing compliance audits." },
     { title: "Tailored Structuring", description: "Whether it’s a Private Limited, Partnership, or Sole Proprietorship, we help you choose the legal structure that minimizes liability and maximizes profit." }
   ],
-        featuresHeading: "Your All-in-One Business Launchpad", // ফিচার টাইটেল
+        featuresHeading: "Building the Legal Foundation for Your Future Enterprise", // ফিচার টাইটেল
         features: [
           {
             title: "Name Clearance",
