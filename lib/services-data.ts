@@ -1517,7 +1517,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       whyChooseUsDescription: "Registering a company is just the beginning. Our mission is to protect your business from future legal hurdles through meticulous planning and a deep understanding of Bangladesh's Companies Act.",
       whyChooseUs: [
     { title: "SLA-Driven Reliability", description: "We don't just promise help; we guarantee it. Our Service Level Agreements (SLA) ensure your issues are prioritized and resolved within a fixed timeframe." },
-    { title: "Quarterly System Health Reports", description: "Transparency is key. You receive detailed reports every quarter showing the performance and "health score" of your IT environment." },
+    { title: "Quarterly System Health Reports", description: "Transparency is key. You receive detailed reports every quarter showing the performance and health score of your IT environment." },
     { title: "Scalable Support Models", description: "Whether you are a small startup with 10 computers or a large enterprise with multiple servers, our AMC packages scale with your growth." }
   ],
           featuresHeading: "Your Extended IT Department for Total Operational Stability", // ফিচার টাইটেল
