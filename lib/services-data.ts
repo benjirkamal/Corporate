@@ -1256,18 +1256,29 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "tax-vat",
-        title: "Tax & VAT",
+        title: "Strategic Tax & VAT Consultancy in Bangladesh",
         shortTitle: "Tax & VAT",
         subtitle: "Complete tax and VAT compliance under one roof",
         description:
           "Income tax, VAT registration, monthly returns, audits and tax planning by chartered accountants.",
         icon: "Calculator",
         heroImage: "/images/services/tax-vat.jpg",
-        overviewTitle: "Stay compliant — and pay only what you should",
+        overviewTitle: "Navigate Complex Fiscal Laws with Absolute Precision",
         overview: [
-          "Bangladeshi tax law changes frequently. Missed filings, wrong calculations and late payments lead to penalties that hurt cash flow. Our chartered accountants handle income tax, VAT, withholding tax and customs duties so you stay 100% compliant.",
-          "Beyond compliance, we offer proactive tax planning to legally minimize your liability through allowable deductions, exemptions and incentives.",
+          "Tax and VAT compliance isn't just about avoiding penalties—it's about building a sustainable and transparent financial future.",
+          "At Corporate.bd, we transform complex NBR regulations into clear, actionable strategies that protect your bottom line and ensure your business remains in good standing with the law.",
         ],
+
+    whyChooseUsTitle: "Simplify Your Taxation—Focus on Your Business, Not the Paperwork", // Why chose us serction.
+        whyChooseUsDescription: "Registering a company is just the beginning. Our mission is to protect your business from future legal hurdles through meticulous planning and a deep understanding of Bangladesh's Companies Act.",
+        whyChooseUs: [
+    { title: "Risk-Free Documentation", description: "We perform rigorous internal audits before any government submission to eliminate errors that could lead to heavy fines." },
+    { title: "Strategic Tax Planning", description: "We don’t just record your past; we plan your future by identifying legitimate ways to optimize your tax structure according to the Income Tax Act." },
+    { title: "Local NBR Expertise", description: "Our consultants have deep-rooted experience with the National Board of Revenue (NBR) protocols, ensuring your files move smoothly through the system." }
+  ],
+        featuresHeading: "Building the Legal Foundation for Your Future Enterprise", // ফিচার টাইটেল
+
+
         features: [
           {
             title: "VAT Registration (BIN)",
