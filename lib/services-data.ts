@@ -575,6 +575,15 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Your website is often the first interaction prospects have with your company. We design and develop corporate websites that load in under two seconds, score 95+ on Lighthouse, and clearly communicate what you do and why customers should choose you.",
           "Every project includes UX research, modern visual design, copywriting collaboration, accessibility (WCAG 2.1 AA) and a CMS so your marketing team can update content without calling a developer.",
         ],
+    whyChooseUsTitle: "Expertise in Web Security and Encryption", // Why chose us serction.
+        whyChooseUsDescription: "We don't just sell certificates; we provide end-to-end security implementation for your digital assets.",
+        whyChooseUs: [
+    { title: "Automated Renewal", description: "Never worry about expiry with our proactive renewal alert system." },
+    { title: "Expert Installation", description: "Free technical support for CSR generation and SSL installation on any server." },
+    { title: "Local Support", description: "Dedicated security experts available in Bangladesh for instant troubleshooting." }
+  ],
+        featuresHeading: "Why Your Business Needs an SSL Certificate?", // ফিচার টাইটেল
+
         features: [
           {
             title: "Custom UI/UX Design",
