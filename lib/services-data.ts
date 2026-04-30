@@ -1962,17 +1962,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       {
         slug: "local-seo",
         title: "Local SEO",
-        shortTitle: "Local SEO",
+        shortTitle: "Dominate Local Search & Google Maps in Bangladesh",
         subtitle: "Dominate searches in your city and across Bangladesh",
         description:
-          "Google Business Profile optimization, local citations, reviews and Bangla SEO to rank in your service area.",
+          "Turn nearby searches into loyal customers. We specialize in Google Business Profile optimization, local citations, and hyper-local SEO to boost your foot traffic and sales.",
         icon: "MapPin",
         heroImage: "/images/services/local-seo.jpg",
-        overviewTitle: "Be found by customers near you",
+        overviewTitle: "Turn Local Searches Into Real Foot Traffic",
         overview: [
-          "When someone searches \"best lawyer in Dhaka\" or \"AC repair near Gulshan\" you want to be the first result. Local SEO is the science of ranking in Google's Map Pack and local organic results so nearby customers can find and choose you.",
+          "When people in your area search for your services, do they find you or your competitors? Dominate Google Maps and the "Local 3-Pack" with our targeted Local SEO strategies.",
           "We optimize your Google Business Profile, build authoritative local citations, manage reviews and create Bangla + English content that earns top rankings city by city.",
         ],
+
+      whyChooseUsTitle: "The Corporate.bd Local Advantage", // Why chose us serction.
+      whyChooseUsDescription: "To protect the digital backbone of your business, we go beyond basic maintenance by utilizing high-level engineering and real-time monitoring to ensure peak system performance. Our core mission is to eliminate downtime and provide ironclad security for your critical data.",
+      whyChooseUs: [
+    { title: "Competitor Spam Fighting", description: "We actively monitor and report fake competitor listings on Google Maps that are unfairly pushing your business down." },
+    { title: "Data-Driven Geo-Targeting", description: "We analyze local search volumes down to specific neighborhoods and thanas (e.g., Gulshan, Banani, Dhanmondi) to capture the most relevant traffic." },
+    { title: "Omnichannel Local Presence", description: "We don't just stop at Google. We optimize your presence on Apple Maps, Bing Places, and local social media check-ins." }
+  ],
+          featuresHeading: "Hyper-Local SEO Strategies That Drive Sales", // ফিচার টাইটেল
+
         features: [
           {
             title: "Google Business Profile",
