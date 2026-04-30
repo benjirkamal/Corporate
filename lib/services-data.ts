@@ -2076,18 +2076,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "product-seo",
-        title: "Product SEO",
+        title: "High-Converting E-commerce & Product SEO Services in Banglades",
         shortTitle: "Product SEO",
         subtitle: "Rank product pages and earn buyer intent traffic",
         description:
-          "Technical, on-page and off-page SEO for e-commerce and SaaS product pages — built to convert searches into sales.",
+          "Turn your product pages into 24/7 sales engines. We specialize in E-commerce SEO, product schema, and conversion-focused optimization to skyrocket your online sales.",
         icon: "Tag",
         heroImage: "/images/services/product-seo.jpg",
-        overviewTitle: "Win the moments that matter — when buyers are ready",
+        overviewTitle: "Turn Your Product Pages Into 24/7 Sales Engines",
         overview: [
-          "Buyers searching for products are gold. We optimize e-commerce categories, product detail pages and SaaS feature pages with deep keyword research, schema markup, internal linking and authoritative backlinks.",
-          "Our process is data-driven: we model keyword difficulty, search intent and conversion value so you invest in pages that actually return revenue.",
+          "In the e-commerce world, ranking on the second page of Google means zero sales. At Corporate.bd, we don’t just drive random traffic; we drive buyers.",
+          "We optimize your category architectures, product descriptions, and technical back-end to align with high-intent search queries, ensuring your products appear exactly when customers have their credit cards ready.",
         ],
+        
+      whyChooseUsTitle: "Why Choose Us For SEO Services?", // Why chose us serction.
+      whyChooseUsDescription: "To protect the digital backbone of your business, we go beyond basic maintenance by utilizing high-level engineering and real-time monitoring to ensure peak system performance. Our core mission is to eliminate downtime and provide ironclad security for your critical data.",
+      whyChooseUs: [
+    { title: "Platform-Specific Expertise", description: "Whether you are on WooCommerce, Shopify, Magento, or a custom build, we know the specific SEO loopholes and advantages of your platform." },
+    { title: "Conversion Rate Focus (CRO)", description: "Getting traffic is only half the battle. We analyze user behavior to suggest layout and copy improvements that turn visitors into paying customers." },
+    { title: "Out-of-Stock Management Strategy", description: "We ensure you don't lose SEO juice or frustrate customers when products go out of stock, using smart redirects and waitlist strategies instead of dead 404 pages." }
+  ],
+          featuresHeading: "Strategic Product SEO Framework to Drive Organic Sales", // ফিচার টাইটেল
         features: [
           {
             title: "Keyword Strategy",
