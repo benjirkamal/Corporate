@@ -563,26 +563,26 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "corporate-websites",
-        title: "High-Performance Development of Corporate Websites",
+        title: "Professional Corporate Websites Development in Bangladesh",
         shortTitle: "Corporate Sites",
-        subtitle: "We design and develop secure, scalable, and results-driven corporate websites that establish your brand’s authority in the digital landscape.",
+        subtitle: "Build high-performance corporate websites that drive growth. Secure, mobile-responsive, and SEO-optimized web solutions for enterprises in Bangladesh.",
         description:
           "Bespoke corporate websites built on Next.js with CMS, SEO and performance optimization.",
         icon: "Building2",
         heroImage: "/images/services/corporate-websites.jpg",
-        overviewTitle: "Your most important salesperson — open 24/7",
+        overviewTitle: "High-Performance Development of Corporate Websites",
         overview: [
-          "Your website is often the first interaction prospects have with your company. We design and develop corporate websites that load in under two seconds, score 95+ on Lighthouse, and clearly communicate what you do and why customers should choose you.",
-          "Every project includes UX research, modern visual design, copywriting collaboration, accessibility (WCAG 2.1 AA) and a CMS so your marketing team can update content without calling a developer.",
+          "We design and develop secure, scalable, and results-driven corporate websites that establish your brand’s authority in the digital landscape.",
+          "In today's digital-first world, corporate websites serve as the digital headquarters for any modern business. At Corporate.bd, we specialize in building professional web platforms that are not just visually stunning but also optimized for speed, security, and conversion. Whether you are a growing startup or a large enterprise, our team ensures your online presence reflects your corporate values.",
         ],
-    whyChooseUsTitle: "Expertise in Web Security and Encryption", // Why chose us serction.
+    whyChooseUsTitle: "Why Choose Us for Corporate Websites?", // Why chose us serction.
         whyChooseUsDescription: "We don't just sell certificates; we provide end-to-end security implementation for your digital assets.",
         whyChooseUs: [
-    { title: "Automated Renewal", description: "Never worry about expiry with our proactive renewal alert system." },
-    { title: "Expert Installation", description: "Free technical support for CSR generation and SSL installation on any server." },
-    { title: "Local Support", description: "Dedicated security experts available in Bangladesh for instant troubleshooting." }
+    { title: "Custom Corporate Design", description: "We don't use generic templates. Every website we build is tailored to your brand identity, ensuring your business stands out from the competition." },
+    { title: "Security & Compliance", description: "From SSL certificates to advanced firewall protection, we prioritize the safety of your corporate data and user information" },
+    { title: "SEO-Ready Infrastructure:", description: "Our corporate websites are built with clean code and optimized architecture, giving you a head start in search engine rankings." }
   ],
-        featuresHeading: "Why Your Business Needs an SSL Certificate?", // ফিচার টাইটেল
+        featuresHeading: "Scalable Features for Modern Enterprises", // ফিচার টাইটেল
 
         features: [
           {
