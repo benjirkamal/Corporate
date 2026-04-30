@@ -897,18 +897,28 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "cms-management",
-        title: "CMS Management",
+        title: "Professional CMS Management: You Create, We Manage the Rest",
         shortTitle: "CMS",
-        subtitle: "WordPress, headless CMS and content operations",
+        subtitle: "Managed CMS Solutions in Bangladesh | WordPress, Joomla & Drupal | Corporate.bd",
         description:
-          "Setup, customization, security hardening and ongoing management of WordPress and modern headless CMS.",
+          "Stop worrying about technical updates or security patches. Get a high-performance Content Management System that gives you the power to update your site in seconds.",
         icon: "FileEdit",
         heroImage: "/images/services/cms-management.jpg",
-        overviewTitle: "Content velocity without the headaches",
+        overviewTitle: "Scale Your Content Velocity with Expert CMS Management",
         overview: [
           "We help marketing and editorial teams publish faster on the CMS that fits their stack. From classic WordPress to modern headless platforms like Sanity, Strapi, Contentful and Payload, our team handles setup, theme/plugin development, security hardening and day-to-day operations.",
           "Stop worrying about plugin conflicts, security patches and slow editor experiences — let us run your CMS while you focus on great content.",
         ],
+
+    whyChooseUsTitle: "The Future of High-Velocity Content Management is Here", // Why chose us serction.
+        whyChooseUsDescription: "We don't just install a CMS; we build a secure, optimized ecosystem. Our approach focuses on giving your team full autonomy over content while our experts handle the underlying performance and security infrastructure.",
+        whyChooseUs: [
+    { title: "Zero-Technical Friction", description: "Our CMS setups are customized so that even a non-technical person can update text, images, and videos without accidentally breaking the site layout." },
+    { title: "Hardened Security & Backups", description: "CMS platforms are frequent targets for hackers. We implement enterprise-level security layers and automated daily backups to keep your content safe 24/7." },
+    { title: "Performance First (Speed Optimization)", description: "We eliminate 'bloat' by using lean coding and premium optimization tools, ensuring your WordPress or Joomla site loads instantly on any device." }
+  ],
+        featuresHeading: "Everything you need to build and scale your custom web application", // ফিচার টাইটেল        
+
         features: [
           {
             title: "WordPress Expertise",
