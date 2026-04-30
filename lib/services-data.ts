@@ -1961,7 +1961,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "local-seo",
-        title: "Local SEO",
+        title: "Dominate Local Search & Google Maps in Bangladesh",
         shortTitle: "Dominate Local Search & Google Maps in Bangladesh",
         subtitle: "Dominate searches in your city and across Bangladesh",
         description:
