@@ -134,11 +134,6 @@ export const MAIN_NAV: NavItem[] = [
         description: "Rank in your city and across Bangladesh.",
       },
       {
-        label: "Google My Business",
-        href: "/seo/google-business",
-        description: "Make Your Local Identity.",
-      },
-      {
         label: "Product SEO",
         href: "/seo/product-seo",
         description: "Optimize product pages for buyers.",
