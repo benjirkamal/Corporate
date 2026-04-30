@@ -1379,7 +1379,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Protect your brand’s unique identity. We provide expert services for Trademark, Patent, Copyright, and Industrial Design registration in Bangladesh to safeguard your intellectual assets.",
         icon: "Copyright",
         heroImage: "/images/services/intellectual-property.jpg",
-        overviewTitle: "Your Ideas are Assets—Protect Them from Infringement",
+        overviewTitle: "The Gold Standard in Intellectual Property Defense & Strategy",
         overview: [
           "Don't let others profit from your hard work. Secure your brand identity, inventions, and creative works with our comprehensive Intellectual Property registration and enforcement services.",
           "We also handle infringement disputes, opposition proceedings, licensing agreements and IP due diligence for M&A.",
@@ -1500,18 +1500,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "amc",
-        title: "Annual Maintenance Contracts (AMC)",
+        title: "Comprehensive IT AMC Services in Bangladesh",
         shortTitle: "AMC",
         subtitle: "All-inclusive IT support for a fixed monthly fee",
         description:
-          "Annual Maintenance Contracts covering desktops, laptops, printers, servers, networks and cloud — with SLA-backed response.",
+          "Keep your business running 24/7 with our Managed IT AMC. We provide proactive hardware maintenance, network support, and emergency IT troubleshooting for enterprises.",
         icon: "Wrench",
         heroImage: "/images/services/amc.jpg",
-        overviewTitle: "Predictable IT costs, zero surprises",
+        overviewTitle: "Eliminate Downtime with Proactive IT Maintenance",
         overview: [
-          "Our AMC plans bundle preventive maintenance, on-demand repairs, remote and on-site support into a single monthly invoice. You get senior engineers, defined response times and quarterly health reports — without the cost of full-time hires.",
+          "Focus on growing your business while we ensure your IT infrastructure never skips a beat. Reliable, scalable, and expert-led Annual Maintenance Contracts (AMC) tailored for your needs.",
           "AMC packages are available for SMEs, large enterprises, schools, hospitals and government offices, with optional 24/7 coverage.",
         ],
+
+     whyChooseUsTitle: "Beyond Reactive Repair: The Corporate.bd Advantage", // Why chose us serction.
+      whyChooseUsDescription: "Registering a company is just the beginning. Our mission is to protect your business from future legal hurdles through meticulous planning and a deep understanding of Bangladesh's Companies Act.",
+      whyChooseUs: [
+    { title: "SLA-Driven Reliability", description: "We don't just promise help; we guarantee it. Our Service Level Agreements (SLA) ensure your issues are prioritized and resolved within a fixed timeframe." },
+    { title: "Quarterly System Health Reports", description: "Transparency is key. You receive detailed reports every quarter showing the performance and "health score" of your IT environment." },
+    { title: "Scalable Support Models", description: "Whether you are a small startup with 10 computers or a large enterprise with multiple servers, our AMC packages scale with your growth." }
+  ],
+          featuresHeading: "Your Extended IT Department for Total Operational Stability", // ফিচার টাইটেল
         features: [
           {
             title: "Helpdesk & Ticketing",

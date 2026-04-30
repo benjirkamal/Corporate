@@ -23,7 +23,7 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
   // Stat cards data for the right side
   const trustStats = [
     { label: "Success", value: "99.9%", icon: Activity },
-    { label: "Custom Apps", value: "100+", icon: Globe },
+    { label: "Deadline", value: "100%", icon: Globe },
     { label: "Support", value: "24/7", icon: Headphones },
     { label: "Experience", value: "10+ Years", icon: Award },
   ]
