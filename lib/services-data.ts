@@ -690,14 +690,14 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
         ],
 
     whyChooseUsTitle: "Why Choose for eCommerce Website Development", // Why chose us serction.
-        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+        whyChooseUsDescription: "Build a high-performance online store designed to convert visitors into loyal customers. We combine mobile-first design, secure payment integrations, and scalable infrastructure to ensure your eCommerce business thrives and grows without limits.",
         whyChooseUs: [
     { title: "Conversion-Focused Design", description: "We don't just build sites; we build sales engines. Our mobile-first designs ensure a seamless shopping experience across all devices, reducing cart abandonment and boosting ROI." },
     { title: "Secure & Scalable Infrastructure", description: "Built with robust security protocols and integrated with trusted local & international payment gateways, our solutions grow effortlessly as your product catalog expands." },
     { title: "Full Post-Launch Support", description: "Beyond development, our local experts provide 24/7 technical support, security updates, and performance optimization to keep your store running smoothly 24/7." }
   ],
         featuresHeading: "Features That Drive Business Success", // ফিচার টাইটেল
-        
+
         features: [
           {
             title: "Shopify & WooCommerce",
