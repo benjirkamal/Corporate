@@ -99,7 +99,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Your domain is the front door of your business online. We help Bangladeshi companies secure the right domain names — from country-specific .bd and .com.bd extensions to global TLDs like .com, .io, .org and the new generic gTLDs.",
           "Beyond registration, we offer DNS management, domain transfer, bulk renewal reminders, WHOIS privacy and dispute resolution support so your most valuable digital asset is always protected.",
         ],
-    whyChooseUsTitle: "Why Choose Us for Domain Management?",
+    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us section.
         whyChooseUsDescription: "Your digital presence is the foundation of your business reputation. At Corporate.bd, we go beyond simple registration to provide a comprehensive domain ecosystem. We combine industry-leading security protocols with a streamlined management interface, ensuring your brand stays protected, accessible, and perfectly aligned with your growth strategy—both at home in Bangladesh and across the global market.",
         whyChooseUs: [
     { title: "Enterprise-Grade Security", description: "We prioritize your brand safety with advanced domain locking and privacy protection services." },
@@ -563,26 +563,18 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "corporate-websites",
-        title: "Professional Corporate Websites Development in Bangladesh",
+        title: "Corporate Websites",
         shortTitle: "Corporate Sites",
-        subtitle: "Build high-performance corporate websites that drive growth. Secure, mobile-responsive, and SEO-optimized web solutions for enterprises in Bangladesh.",
+        subtitle: "Modern websites that win trust and customers",
         description:
           "Bespoke corporate websites built on Next.js with CMS, SEO and performance optimization.",
         icon: "Building2",
         heroImage: "/images/services/corporate-websites.jpg",
-        overviewTitle: "High-Performance Development of Corporate Websites",
+        overviewTitle: "Your most important salesperson — open 24/7",
         overview: [
-          "We design and develop secure, scalable, and results-driven corporate websites that establish your brand’s authority in the digital landscape.",
-          "In today's digital-first world, corporate websites serve as the digital headquarters for any modern business. At Corporate.bd, we specialize in building professional web platforms that are not just visually stunning but also optimized for speed, security, and conversion. Whether you are a growing startup or a large enterprise, our team ensures your online presence reflects your corporate values.",
+          "Your website is often the first interaction prospects have with your company. We design and develop corporate websites that load in under two seconds, score 95+ on Lighthouse, and clearly communicate what you do and why customers should choose you.",
+          "Every project includes UX research, modern visual design, copywriting collaboration, accessibility (WCAG 2.1 AA) and a CMS so your marketing team can update content without calling a developer.",
         ],
-    whyChooseUsTitle: "Why Choose Us for Corporate Websites?", // Why chose us serction.
-        whyChooseUsDescription: "We don't just sell certificates; we provide end-to-end security implementation for your digital assets.",
-        whyChooseUs: [
-    { title: "Custom Corporate Design", description: "We don't use generic templates. Every website we build is tailored to your brand identity, ensuring your business stands out from the competition." },
-    { title: "Security & Compliance", description: "From SSL certificates to advanced firewall protection, we prioritize the safety of your corporate data and user information" },
-    { title: "SEO-Ready Infrastructure:", description: "Our corporate websites are built with clean code and optimized architecture, giving you a head start in search engine rankings." }
-  ],
-        featuresHeading: "Scalable Features for Modern Enterprises", // ফিচার টাইটেল
 
         features: [
           {
@@ -676,27 +668,28 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "ecommerce-solutions",
-        title: "Professional eCommerce Website Development in Bangladesh",
+        title: "E-commerce Solutions",
         shortTitle: "E-commerce",
-        subtitle: "Scale your online business with high-performance eCommerce website development. Secure payments, mobile-first design, and expert support in Bangladesh.",
+        subtitle: "Online stores built to scale and sell",
         description:
           "Shopify, WooCommerce and custom e-commerce platforms with local payment gateways and logistics.",
         icon: "ShoppingCart",
         heroImage: "/images/services/ecommerce-solutions.jpg",
-        overviewTitle: "Expert eCommerce Website Development to Scale Your Online Business",
+        overviewTitle: "Sell more online — across Bangladesh and beyond",
         overview: [
-          "In today's digital marketplace, a professional online store is the backbone of business growth.",
-          "At Corporate.bd, we specialize in eCommerce website development that combines stunning aesthetics with powerful functionality. From startups to large enterprises, we create platforms that are fast, secure, and fully optimized for sales.",
+          "We build online stores on the platform that fits your business: Shopify for fast launches, WooCommerce for flexibility, Medusa or Saleor for headless control, or fully custom Next.js commerce for unique workflows.",
+          "Every store ships with bKash, Nagad, SSLCommerz, Stripe and card gateway integration, plus connections to Pathao, RedX, Steadfast and Sundarban for last-mile delivery.",
         ],
 
-    whyChooseUsTitle: "Why Choose for eCommerce Website Development", // Why chose us serction.
-        whyChooseUsDescription: "Build a high-performance online store designed to convert visitors into loyal customers. We combine mobile-first design, secure payment integrations, and scalable infrastructure to ensure your eCommerce business thrives and grows without limits.",
+    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
+        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
         whyChooseUs: [
-    { title: "Conversion-Focused Design", description: "We don't just build sites; we build sales engines. Our mobile-first designs ensure a seamless shopping experience across all devices, reducing cart abandonment and boosting ROI." },
-    { title: "Secure & Scalable Infrastructure", description: "Built with robust security protocols and integrated with trusted local & international payment gateways, our solutions grow effortlessly as your product catalog expands." },
-    { title: "Full Post-Launch Support", description: "Beyond development, our local experts provide 24/7 technical support, security updates, and performance optimization to keep your store running smoothly 24/7." }
+    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
+    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
+    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
   ],
-        featuresHeading: "Features That Drive Business Success", // ফিচার টাইটেল
+        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
+
 
         features: [
           {
@@ -790,18 +783,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "custom-web-apps",
-        title: "Custom Web Applications",
+        title: "Custom Web Application Development in Bangladesh",
         shortTitle: "Web Apps",
-        subtitle: "Bespoke applications for your unique workflows",
+        subtitle: "Scale your business operations with tailor-made, secure, and high-performance custom web applications. Expert developers in Bangladesh for enterprise-grade solutions.",
         description:
           "ERP, CRM, SaaS, dashboards and workflow tools built on Next.js, Node.js, Laravel and Python.",
         icon: "AppWindow",
         heroImage: "/images/services/custom-web-apps.jpg",
-        overviewTitle: "Software that fits your business — not the other way around",
+        overviewTitle: "Bespoke Custom Web Applications Built for Scalability",
         overview: [
-          "Off-the-shelf software rarely matches the way your business actually runs. We build custom web applications — ERPs, CRMs, dashboards, marketplaces, SaaS platforms — that automate your workflow and give you a competitive edge.",
-          "Our delivery framework includes discovery, prototyping, agile sprints, automated testing, CI/CD and post-launch support. You own the source code and the IP.",
+          "Transform your unique business ideas into powerful digital solutions.",
+          "We design and develop high-performance web apps that streamline operations and drive innovation.",
         ],
+    whyChooseUsTitle: "Why Choose Corporate.bd for Custom Web Application Development?", // Why chose us serction.
+        whyChooseUsDescription: "Unlock operational efficiency with a web application designed exclusively for your business. We bridge the gap between complex technology and user-centric design to deliver solutions that are secure, scalable, and future-ready.",
+        whyChooseUs: [
+    { title: "Tailor-Made Solutions", description: "We don't believe in one-size-fits-all. Our apps are built from the ground up based on your specific workflows, ensuring 100% alignment with your business goals." },
+    { title: "Robust Security & Architecture", description: "Using modern frameworks like Laravel and React, we ensure your application is fortified against vulnerabilities and can handle thousands of concurrent users with ease" },
+    { title: "Agile Development & Support", description: "Our iterative process keeps you involved at every stage. Plus, our local team provides 24/7 proactive maintenance to ensure your application stays ahead of the curve." }
+  ],
+        featuresHeading: "Everything you need to build and scale your custom web application", // ফিচার টাইটেল
+
         features: [
           {
             title: "Modern Tech Stack",
