@@ -2295,18 +2295,29 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "social-media-management",
-        title: "Social Media Management",
+        title: "Best Social Media Management Services in Bangladesh",
         shortTitle: "Social Media",
         subtitle: "Grow brand visibility, engagement and revenue on social",
         description:
-          "Strategy, content, community management, paid social and influencer marketing on Facebook, Instagram, LinkedIn, YouTube and TikTok.",
+          "Elevate your brand’s digital presence. We provide end-to-end social media management, creative content strategy, and data-driven ad campaigns to grow your community and ROI.",
         icon: "Share2",
         heroImage: "/images/services/social-media.jpg",
-        overviewTitle: "Show up where your customers spend their time",
+        overviewTitle: "Transform Your Social Presence into a Revenue Engine",
         overview: [
-          "Bangladeshis spend 3+ hours daily on social media. Our social team turns that attention into brand awareness, community and revenue with platform-native creative, paid amplification and authentic community engagement.",
+          "Beyond likes and shares, we focus on building meaningful connections. From thumb-stopping visuals to strategic community management, we handle your social media while you grow your business.",
           "We work across Facebook, Instagram, LinkedIn, YouTube and TikTok with monthly content calendars, on-brand design, video production and reporting that ties back to business outcomes.",
         ],
+        
+      whyChooseUsTitle: "Data-Driven Creativity for Maximum Impact", // Why chose us serction.
+      whyChooseUsDescription: "To protect the digital backbone of your business, we go beyond basic maintenance by utilizing high-level engineering and real-time monitoring to ensure peak system performance. Our core mission is to eliminate downtime and provide ironclad security for your critical data.",
+      whyChooseUs: [
+    { title: "Competitor Benchmarking", description: "We don't work in a vacuum. We analyze your top competitors to find gaps and opportunities where your brand can win." },
+    { title: "Monthly Performance Insights", description: "No more guessing. You receive detailed reports showing growth, engagement rates, and the actual business impact of our activities." },
+    { title: "Agile Content Calendar", description: "We stay ahead of trends. Our flexible scheduling ensures your brand participates in viral moments while maintaining a consistent long-term message." }
+  ],
+          featuresHeading: "Strategic Social Media Management to Turn Engagement into Leads", // ফিচার টাইটেল
+
+
         features: [
           {
             title: "Strategy & Calendar",
