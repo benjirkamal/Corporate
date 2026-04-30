@@ -1372,18 +1372,26 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "intellectual-property",
-        title: "Intellectual Property",
+        title: "IP & Trademark Registration Services in Bangladesh",
         shortTitle: "IP Services",
         subtitle: "Protect your brand, ideas and creative work",
         description:
-          "Trademark, copyright, patent and industrial design registration in Bangladesh and internationally.",
+          "Protect your brand’s unique identity. We provide expert services for Trademark, Patent, Copyright, and Industrial Design registration in Bangladesh to safeguard your intellectual assets.",
         icon: "Copyright",
         heroImage: "/images/services/intellectual-property.jpg",
-        overviewTitle: "Your ideas deserve legal protection",
+        overviewTitle: "Your Ideas are Assets—Protect Them from Infringement",
         overview: [
-          "Your brand, software, designs and inventions are valuable assets. We help register trademarks with DPDT, copyrights with the Copyright Office, patents with the Department of Patents, and industrial designs — both nationally and through Madrid, Paris Convention and PCT internationally.",
+          "Don't let others profit from your hard work. Secure your brand identity, inventions, and creative works with our comprehensive Intellectual Property registration and enforcement services.",
           "We also handle infringement disputes, opposition proceedings, licensing agreements and IP due diligence for M&A.",
         ],
+    whyChooseUsTitle: "Your Strategic Partners in Brand Sovereignty", // Why chose us serction.
+        whyChooseUsDescription: "Registering a company is just the beginning. Our mission is to protect your business from future legal hurdles through meticulous planning and a deep understanding of Bangladesh's Companies Act.",
+        whyChooseUs: [
+    { title: "Proactive IP Auditing", description: "We don't just file applications; we analyze your entire business to identify unprotected assets that could be at risk." },
+    { title: "Global Standard Enforcement", description: "Our team understands both local DPDT (Department of Patents, Designs and Trademarks) protocols and international IP standards." },
+    { title: "Infringement Monitoring", description: "We provide ongoing support to detect and challenge unauthorized use of your IP, including issuing legal cease-and-desist notices." }
+  ],
+        featuresHeading: "Comprehensive Intellectual Property Solutions", // ফিচার টাইটেল
         features: [
           {
             title: "Trademark Registration",
