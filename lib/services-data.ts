@@ -1614,18 +1614,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "server-administration",
-        title: "Server Administration",
+        title: "Expert Server Administration & Management in Bangladesh",
         shortTitle: "Servers",
         subtitle: "Linux & Windows server expertise on demand",
         description:
-          "24/7 server administration, hardening, patching, monitoring and disaster recovery for on-prem and cloud servers.",
+          "Ensure 100% uptime and robust security. We provide professional Windows/Linux server administration, cloud management, and proactive monitoring for your business infrastructure.",
         icon: "Server",
         heroImage: "/images/services/server-administration.jpg",
-        overviewTitle: "Servers that run smoothly — without surprises",
+        overviewTitle: "The Backbone of Your Digital Enterprise, Managed by Experts",
         overview: [
-          "Whether your servers run on bare metal, VMware, Hyper-V or in the cloud (AWS, Azure, GCP, DigitalOcean), our certified administrators keep them secure, patched and performing at their peak.",
+          "From cloud migration to on-premise hardware optimization, we ensure your servers are fast, secure, and always available. Experience seamless performance with our 24/7 server administration.",
           "We support Linux (Ubuntu, RHEL, CentOS, Debian), Windows Server, web servers (Nginx, Apache, IIS), databases (MySQL, PostgreSQL, MS SQL, MongoDB) and container platforms (Docker, Kubernetes).",
         ],
+
+      whyChooseUsTitle: "Why Choose Our Server Administration & Management Services?", // Why chose us serction.
+      whyChooseUsDescription: "To protect the digital backbone of your business, we go beyond basic maintenance by utilizing high-level engineering and real-time monitoring to ensure peak system performance. Our core mission is to eliminate downtime and provide ironclad security for your critical data.",
+      whyChooseUs: [
+    { title: "Proactive Monitoring and Security", description: "Our Network Operations Center (NOC) monitors system metrics in real-time to resolve issues before they impact operations, while advanced intrusion detection and vulnerability patching provide security that exceeds standard firewalls." },
+    { title: "Engineering and Compliance", description: "We utilize high-level engineering to eliminate performance bottlenecks and ensure all server configurations meet international ISO standards and local data privacy regulations." },
+    { title: "Disaster Readiness", description: "We implement fail-safe backup strategies, such as the 3-2-1 rule, to guarantee data integrity and enable rapid recovery in the event of a system failure." }
+  ],
+          featuresHeading: "End-to-End Server Administration & Managed Infrastructure Solutions", // ফিচার টাইটেল
         features: [
           {
             title: "Provisioning & Setup",
