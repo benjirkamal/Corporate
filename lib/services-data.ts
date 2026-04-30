@@ -1144,18 +1144,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "trade-license",
-        title: "Trade License",
+        title: "Fast-Track Trade License Registration in Bangladesh",
         shortTitle: "Trade License",
         subtitle: "Get and renew your trade license without the queues",
         description:
-          "Trade license issuance and renewal from Dhaka City Corporation, RAJUK and other authorities.",
+          "Get your business legally authorized with ease. From new applications to annual renewals, Corporate.bd provides expert assistance for Trade License procurement in Bangladesh.",
         icon: "ScrollText",
         heroImage: "/images/services/trade-license.jpg",
-        overviewTitle: "Operate legally from day one",
+        overviewTitle: "Legally Authorize Your Business with Zero Hassle",
         overview: [
           "A trade license is mandatory for every business in Bangladesh. We handle new applications, renewals, amendments and transfers across DSCC, DNCC, CCC, KCC and other municipal authorities.",
           "We also help with specialized licenses — environmental clearance from DOE, fire safety, factory license, drug license, food license and import-export registration certificates (IRC/ERC).",
         ],
+    whyChooseUsTitle: "Redefining Trade License Procurement", // Why chose us serction.
+        whyChooseUsDescription: "Registering a company is just the beginning. Our mission is to protect your business from future legal hurdles through meticulous planning and a deep understanding of Bangladesh's Companies Act.",
+        whyChooseUs: [
+    { title: "Jurisdictional Expertise", description: "We understand the specific requirements of every City Corporation and Union Parishad in Bangladesh, ensuring your application is filed correctly the first time." },
+    { title: "Rapid Processing", description: "Our deep network and streamlined documentation process reduce the typical waiting time, helping you get your license book in record speed." },
+    { title: "Automated Renewal Tracking", description: "Never worry about penalties again. We keep track of your license validity and notify you well in advance of the June-July renewal window." }
+  ],
+        featuresHeading: "Building the Legal Foundation for Your Future Enterprise", // ফিচার টাইটেল
+
         features: [
           {
             title: "New Trade License",
