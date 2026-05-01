@@ -187,10 +187,10 @@ export function ServicePageTemplate({ service, category }: ServicePageTemplatePr
           <>
             <div className="rounded-2xl bg-muted p-8 text-center border border-border">
               <div className="text-3xl font-bold text-primary">99.9%</div>
-              <div className="text-sm text-muted-foreground mt-1">Uptime SLA</div>
+              <div className="text-sm text-muted-foreground mt-1">Conversion Rate</div>
             </div>
             <div className="rounded-2xl bg-accent/5 p-8 text-center border border-accent/10">
-              <div className="text-3xl font-bold text-accent">5+</div>
+              <div className="text-3xl font-bold text-accent">10+</div>
               <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
             </div>
             <div className="col-span-2 rounded-2xl bg-primary p-8 text-center text-primary-foreground">
