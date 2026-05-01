@@ -46,6 +46,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+icons: {
+    icon: [
+      { url: "/favicon.svf", sizes: "48x48" }, 
+    ],
+    apple: [
+      { url: "/favicon.svg", sizes: "48x48" }, // আইফোনের জন্যও সাময়িকভাবে এটি কাজ করবে
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
