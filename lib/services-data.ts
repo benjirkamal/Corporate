@@ -668,7 +668,7 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
       },
       {
         slug: "ecommerce-solutions",
-        title: "E-commerce Solutions",
+        title: "Build Your Online Empire with Our Ecommerce Solution",
         shortTitle: "E-commerce",
         subtitle: "Online stores built to scale and sell",
         description:
@@ -681,14 +681,14 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
           "Every store ships with bKash, Nagad, SSLCommerz, Stripe and card gateway integration, plus connections to Pathao, RedX, Steadfast and Sundarban for last-mile delivery.",
         ],
 
-    whyChooseUsTitle: "Why Choose Us for Domain Management?", // Why chose us serction.
-        whyChooseUsDescription: "আমরা ডোমেইন পোর্টফোলিও ম্যানেজমেন্টকে সহজ এবং সুরক্ষিত করি।",
+    whyChooseUsTitle: "The Best Ecommerce Solution for Growing Businesses", // Why chose us serction.
+        whyChooseUsDescription: "Choosing the right partner is about more than just a website; it’s about a sustainable engine for growth. By combining scalable architecture, conversion-optimized design, and ironclad security, we provide a complete, end-to-end platform. We handle the technical complexities so you can focus on what matters most—running and expanding your business.",
         whyChooseUs: [
-    { title: "Local Compliance", description: "বাংলাদেশি নিয়ম অনুযায়ী .bd ডোমেইন ম্যানেজমেন্ট।" },
-    { title: "Instant Activation", description: "পেমেন্ট পাওয়ার সাথে সাথেই ডোমেইন এক্টিভেশন।" },
-    { title: "Security First", description: "অ্যাডভান্সড ডিএনএস সুরক্ষা এবং ডোমেইন লক সুবিধা।" }
+    { title: "Scalable & Custom-Built", description: "Grow without limits! Our tailored ecommerce solutions adapt to your business, easily handling traffic spikes and expanding product catalogs as you scale." },
+    { title: "High-Converting Design", description: "Turn clicks into customers. We build lightning-fast, mobile-friendly storefronts with seamless checkout experiences designed to maximize your sales." },
+    { title: "Ironclad Security", description: "Build instant buyer trust. Keep your online store safe with secure payment gateways, robust data protection, and reliable uptime." }
   ],
-        featuresHeading: "Everything you need to manage your domain portfolio", // ফিচার টাইটেল
+        featuresHeading: "Everything You Need to Sell Online in Bangladesh", // ফিচার টাইটেল
 
 
         features: [
