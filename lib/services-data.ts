@@ -563,18 +563,27 @@ export const SERVICE_CATEGORIES: Record<string, ServiceCategory> = {
     services: [
       {
         slug: "corporate-websites",
-        title: "Corporate Websites",
+        title: "Corporate website development in Bangladesh",
         shortTitle: "Corporate Sites",
-        subtitle: "Modern websites that win trust and customers",
+        subtitle: "We build fast, secure, and modern business websites that elevate your brand's digital presence. Transform your corporate identity with state-of-the-art web solutions designed to convert visitors into clients.",
         description:
           "Bespoke corporate websites built on Next.js with CMS, SEO and performance optimization.",
         icon: "Building2",
         heroImage: "/images/services/corporate-websites.jpg",
-        overviewTitle: "Your most important salesperson — open 24/7",
+        overviewTitle: "Premium Business & Corporate Web Solutions in Bangladesh",
         overview: [
           "Your website is often the first interaction prospects have with your company. We design and develop corporate websites that load in under two seconds, score 95+ on Lighthouse, and clearly communicate what you do and why customers should choose you.",
           "Every project includes UX research, modern visual design, copywriting collaboration, accessibility (WCAG 2.1 AA) and a CMS so your marketing team can update content without calling a developer.",
         ],
+
+    whyChooseUsTitle: "Why Top Brands in Bangladesh Choose Us", // Why chose us serction.
+        whyChooseUsDescription: "Choosing the right partner is about more than just a website; it’s about a sustainable engine for growth. By combining scalable architecture, conversion-optimized design, and ironclad security, we provide a complete, end-to-end platform. We handle the technical complexities so you can focus on what matters most—running and expanding your business.",
+        whyChooseUs: [
+    { title: "Modern, Future-Proof Technology", description: "We don't rely on sluggish, outdated platforms. By utilizing cutting-edge frameworks like Next.js and enterprise-grade hosting networks, we ensure your corporate site is blazing-fast, incredibly secure, and built to scale seamlessly as your business grows." },
+    { title: "Tailored, Pixel-Perfect Design", description: "First impressions matter in the corporate world. We write custom, clean code using utility-first styling to craft a unique, highly responsive digital identity for your brand. Your website will look flawless on every device, free from the rigid constraints of generic templates." },
+    { title: "End-to-End Professional Setup", description: "We provide a complete digital foundation so you can focus on running your business. From integrating advanced technical SEO that drives organic traffic to configuring your custom corporate domains and secure business emails, we deliver a fully integrated, hassle-free solution." }
+  ],
+        featuresHeading: "Premium Business & Corporate Web Solutions in Bangladesh", // ফিচার টাইটেল
 
         features: [
           {
